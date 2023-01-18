@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 90px;
+    box-sizing: border-box;
+    position: fixed;
+    box-shadow: 0px 5px 8px 0px rgba(10, 9, 9, 0.75);
+}
+
+.nav span{
+    font-size: 25px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 70px;
+}
+
+.nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav ul li a:hover{
+    color: rgb(2, 2, 80);
+}
+
+.intro{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.about,.services{
+    /* background-color: brown; */
+    height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+}
+.services{
+    height: 80vh;
+}
+.follow{
+    height: fit-content;
+        width: 100vw;
+}
+
+.intro_left{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 80px;
+    gap: 20px;
+}
+
+.intro_right{
+    background-image: url("./MANISH\ PIC\ \(2\).jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+        height: 100vh;
+        width: 40vw;
+        box-sizing: initial;
+}
+.hello{
+    font-size: 30px;
+    font-weight: 600;
+}
+.name{
+    font-size: 80px;
+    font-weight: 900;
+}
+.tec{
+    font-size: 20px;
+}
+
+.button{
+    background-color: rgb(12, 12, 117);
+    display: inline;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button:hover{
+    background-color: rgb(9, 9, 87);
+}
+.header{
+    height: 26vh;
+        width: 100vw;
+        /* background-color: burlywood; */
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+}
+.header p{
+    text-align: center;
+}
+
+.header_p{
+    font-size: 35px;
+    font-weight: 800;
+}
+.header_int{
+    color: rgb(4, 134, 4);
+}
+
+.content,.services_content{
+    width: 100vw;
+    /* background-color: chartreuse; */
+    height: 100%;
+    display: flex;
+}
+.services_content{
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.content_left{
+    height:100%;
+    width: 40vw;
+   
+}
+
+.content_left img{
+    height: 65vh;
+    width: 30vw;
+    margin-top: 7vh;
+    margin-left: 30px;
+}
+
+.content_right{
+    font-size: 25px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 60vw;
+    padding-right: 150px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content_right i{
+    margin-right: 12px;
+    margin-top: 10px;
+}
+.card{
+    height: 150px;
+    width: 250px;
+    border: 3px solid rgb(3, 0, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.card:hover{
+    background-color: #010121;
+    color: white;
+    border-color: #0d0dac;
+}
+
+.services_content .card i{
+    font-size: 50px;
+}
+.services_content .card .title{
+        font-size: 20px;
+            font-weight: 900;
+}
+
+.follow_content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 14px;
+    padding-top: 23px;
+
+}
+.follow_content i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.follow_content i:hover{
+    color: rgb(83, 105, 1);
+
+}
+.follow_content a{
+    color: black;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #19749b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contact_content{
+    height: 50vh;
+    display: flex;
+        flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+}
+.input_text{
+        width: 40vw;
+            height: 4vh;
+            padding: 5px;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: rgba(220, 237, 241, 0.5);
+            border: none;
+}
